@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE HTML>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<html>
 <head>
-	<title>php中文网</title>
+	<title>Love</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<style type="text/css">
 		@font-face {
@@ -9,20 +9,23 @@
 			src: url('digital-7_mono.ttf') format("truetype");
 		}
 	</style>
-<meta name="keywords" content="免费制作,表白网页生成器,2017,样式最多,情人节告白,520,七
-
-夕表白,怎么表白" />
+<meta name="keywords" content="Love" />
 <meta name="description" content="" />	<link href="css/default.css" type="text/css" rel="stylesheet">
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/garden.js"></script>
     <script type="text/javascript" src="js/functions.js"></script>
 	
 	<script type="text/javascript" src="js/jq.snow.js"></script>
-</head> 
+</head>
 
 <body>
+<audio src="./我保护你.mp3" autoplay></audio>
 <!--下面是调用方法和参数说明-->
 	<script>
+      var au = document.body.querySelector("audio")
+      window.onclick = function () {
+        au.play()
+      }
 	$(function(){
 		$.fn.snow({ 
 			minSize: 5,		//雪花的最小尺寸
@@ -31,26 +34,25 @@
 		});
 	});
 	</script>
+
 	<div id="mainDiv">
 		<div id="content">
 			<div id="code">
 				<span class="comments">/**</span><br />
-        <span class="space"/><span class="comments">* php中文网粉丝：今天是2017年2月14日。</span><br />
-        <span class="space"/><span class="comments">* 我写这个网站来庆祝这个特殊的日子。 </span><br />
-        <span class="space"/><span class="comments">* 虽然，我不是一个很擅长表达言语的人。 </span><br />
-        <span class="space"/><span class="comments">* 但我希望我们能记住我们在一起的每一刻。</span><br />
+				<span class="space"/><span class="comments">* 亲爱的：</span><br />
+				<span class="space"/><span class="comments">* 今天是个特殊的日子。 </span><br />
+				<span class="space"/><span class="comments">* 虽然，我不是一个很擅长表达言语的人。 </span><br />
+				<span class="space"/><span class="comments">* 但我希望我们能记住我们在一起的每一刻。</span><br />
 				<span class="space"/><span class="comments">*/</span><br />
 				Girl u = <span class="keyword">new</span> Girl(<span class="string">"Abby"</span>);<br/>
 				Boy i = <span class="keyword">new</span> Boy(<span class="string">"Mark"</span>);<br />
-				<span class="comments">// 今天是二月十四日。 </span><br />
-				<span class="comments">// 祝老婆情人节快乐。</span><br />
 				<span class="comments">// 我把你的美丽记录在日记里，让文字把你的青春铭记。</span><br />
-        <span class="comments">// 我把你的笑容粘贴在日记里，让图片把你的活泼记忆。</span><br />
+        		<span class="comments">// 我把你的笑容粘贴在日记里，让图片把你的活泼记忆。</span><br />
 				<span class="comments">// 我把我的照片夹进日记里，让爱情把你的幸福牢系。</span><br />
 				<span class="comments">// 对我来说是个重要的时刻，我发现我已经深深爱上了你！</span><br />
-        <span class="comments">// 当我凝视你的眼，当我听到你的声音。 </span><br />
+				<span class="comments">// 当我凝视你的眼，当我听到你的声音。 </span><br />
 				<span class="comments">// 当我闻到你秀发上淡淡的清香。 </span><br />
-        <span class="comments">//  </span><br />
+        		<span class="comments">//  </span><br />
 				我爱你;<br />
 				<span class="comments">//当我感受到我剧烈的心跳，我明白了：</span><br />
 				我想你;<br />
@@ -70,7 +72,7 @@
 				<canvas id="garden"></canvas>
 				<div id="words">
 					<div id="messages">
-						        phper,我已经相爱了：
+						        ***,我已经深深地爱上你了：
 						<div id="elapseClock"></div>
 					</div>
 					<div id="loveu">
@@ -93,7 +95,6 @@
 		</div>
 	</div>
 </div>
-
 	<script type="text/javascript">
 		var offsetX = $("#loveHeart").width() / 2;
 		var offsetY = $("#loveHeart").height() / 2 - 55;
@@ -105,10 +106,10 @@
 		together.setMilliseconds(0);
 		
 		if (!document.createElement('canvas').getContext) {
-			var msg = document.createElement("div");
-			msg.id = "errorMsg";
-			msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+"; 
-			document.body.appendChild(msg);
+			// var msg = document.createElement("div");
+			// msg.id = "errorMsg";
+			// msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+";
+			// document.body.appendChild(msg);
 			$("#code").css("display", "none")
 			$("#copyright").css("position", "absolute");
 			$("#copyright").css("bottom", "10px");
@@ -127,6 +128,5 @@
 			$("#code").typewriter();
 		}
 	</script>
-	<embed src="http://sisiyan.sinaapp.com/Love.mp3" autostart="true" loop="true" hidden="true"></embed>
 </body>
 </html>
